@@ -1,0 +1,16 @@
+PODS:
+  - APBCommon (0.1.0)
+
+DEPENDENCIES:
+  - APBCommon (from `../`)
+
+EXTERNAL SOURCES:
+  APBCommon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  APBCommon: 50eabd2572b32c1ae352362d1624d05f6bae3c77
+
+PODFILE CHECKSUM: c627b50f9967f4910be249002fa16db2bd752985
+
+COCOAPODS: 1.6.2

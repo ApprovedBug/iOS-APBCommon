@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'APBCommon_Example' do
+  pod 'APBCommon', :path => '../'
+
+  target 'APBCommon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
