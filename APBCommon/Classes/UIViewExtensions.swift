@@ -12,7 +12,7 @@ public extension UIView {
     // MARK: Align different edges
 
     @discardableResult
-    func alignAttribute(_ selfAttribute: NSLayoutAttribute, WithView relatedView: UIView, Attribute relatedViewAttribute: NSLayoutAttribute, constant: CGFloat) -> NSLayoutConstraint {
+    func alignAttribute(_ selfAttribute: NSLayoutConstraint.Attribute, WithView relatedView: UIView, Attribute relatedViewAttribute: NSLayoutConstraint.Attribute, constant: CGFloat) -> NSLayoutConstraint {
         self.translatesAutoresizingMaskIntoConstraints = false
 
         let constraint: NSLayoutConstraint = NSLayoutConstraint(item: self, attribute: selfAttribute, relatedBy: .equal, toItem: relatedView, attribute: relatedViewAttribute, multiplier: 1, constant: constant)
