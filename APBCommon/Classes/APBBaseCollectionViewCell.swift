@@ -8,7 +8,7 @@
 import UIKit
 
 open class APBBaseCollectionViewCell: UICollectionViewCell {
-    
+
     // MARK: - Init Methods
 
     public convenience init() {
