@@ -19,7 +19,7 @@ open class APBBaseCollectionReusableView: UICollectionReusableView {
         super.init(coder: aDecoder)
     }
 
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         
         super.init(frame: frame)
 
