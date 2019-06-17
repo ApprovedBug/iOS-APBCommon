@@ -14,6 +14,7 @@
 		716A1CF622B3A1D500AB378C /* APBBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A1CF522B3A1D500AB378C /* APBBaseView.swift */; };
 		716A1CF822B3A2EA00AB378C /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A1CF722B3A2EA00AB378C /* UIViewExtensions.swift */; };
 		71A9069722B3E70800C64920 /* APBBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A9069622B3E70800C64920 /* APBBaseCollectionViewCell.swift */; };
+		71AEEBFE22B7CE6E000908E1 /* APBBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AEEBFD22B7CE6E000908E1 /* APBBaseCollectionReusableView.swift */; };
 		84F4619B1E2ECA777B95D6F06ADC7F6F /* Pods-APBCommon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F23E724383281035C390E6F4A15E22A2 /* Pods-APBCommon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D505C78EB7618D47C87937F26942391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AFB2EAE0735BAB9D177F0085BF0A0E5F /* Pods-APBCommon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BEFE9FA9E828840DDA2E1A10D3963B /* Pods-APBCommon_Tests-dummy.m */; };
@@ -58,6 +59,7 @@
 		716A1CF522B3A1D500AB378C /* APBBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APBBaseView.swift; path = APBCommon/Classes/APBBaseView.swift; sourceTree = "<group>"; };
 		716A1CF722B3A2EA00AB378C /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = APBCommon/Classes/UIViewExtensions.swift; sourceTree = "<group>"; };
 		71A9069622B3E70800C64920 /* APBBaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APBBaseCollectionViewCell.swift; path = APBCommon/Classes/APBBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		71AEEBFD22B7CE6E000908E1 /* APBBaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APBBaseCollectionReusableView.swift; path = APBCommon/Classes/APBBaseCollectionReusableView.swift; sourceTree = "<group>"; };
 		720ED717BA24AAD6306547731D8B6ECE /* APBCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APBCommon-umbrella.h"; sourceTree = "<group>"; };
 		88CF0CAE31CCA4EF278D0E5A1F653487 /* Pods-APBCommon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APBCommon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DD30CA025D7F2B7C76A29383D751A0D /* Pods-APBCommon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APBCommon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				716A1CF322B3A17E00AB378C /* APBBaseViewController.swift */,
 				716A1CF522B3A1D500AB378C /* APBBaseView.swift */,
 				716A1CF722B3A2EA00AB378C /* UIViewExtensions.swift */,
+				71AEEBFD22B7CE6E000908E1 /* APBBaseCollectionReusableView.swift */,
 			);
 			name = APBCommon;
 			path = ../..;
@@ -387,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71AEEBFE22B7CE6E000908E1 /* APBBaseCollectionReusableView.swift in Sources */,
 				716A1CF622B3A1D500AB378C /* APBBaseView.swift in Sources */,
 				F6D520E132ED792F9EC923AF74882E8C /* APBCommon-dummy.m in Sources */,
 				716A1CF822B3A2EA00AB378C /* UIViewExtensions.swift in Sources */,
