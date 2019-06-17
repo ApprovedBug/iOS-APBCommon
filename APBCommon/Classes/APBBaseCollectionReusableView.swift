@@ -7,7 +7,7 @@
 
 import UIKit
 
-class APBBaseCollectionReusableView: UICollectionReusableView {
+open class APBBaseCollectionReusableView: UICollectionReusableView {
 
     // MARK: - Init Methods
 
