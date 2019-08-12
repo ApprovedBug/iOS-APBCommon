@@ -19,7 +19,11 @@ open class APBBaseViewController: UIViewController {
 
     // MARK: - Init Methods
 
-    init(managedObjectContext: NSManagedObjectContext) {
+    public convenience init() {
+        self.init(managedObjectContext: nil)
+    }
+
+    public init(managedObjectContext: NSManagedObjectContext?) {
         self.managedObjectContext = managedObjectContext
         super.init(nibName: nil, bundle: nil)
     }
