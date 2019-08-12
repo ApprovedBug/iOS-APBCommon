@@ -6,14 +6,27 @@
 //
 
 import UIKit
+import CoreData
 
 open class APBBaseViewController: UIViewController {
 
-    // MARK: - Views
+    // MARK: - Properties
 
+    public var managedObjectContext: NSManagedObjectContext?
     public var _rootView: APBBaseView?
 
     open var rootView: APBBaseView? { return _rootView }
+
+    // MARK: - Init Methods
+
+    init(managedObjectContext: NSManagedObjectContext) {
+        self.managedObjectContext = managedObjectContext
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    public required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
 
     // MARK: - View Life Cycle Methods
 
